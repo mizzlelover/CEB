@@ -1,16 +1,12 @@
 ---
 name: ceb
+display_name: CEB 文件转换
+display_name_en: CEB Converter
 description: Convert verified Founder CEB files to PDF, Markdown, and TXT for AI-readable document workflows, including single-file and batch processing. Use when a task involves reading or validating .ceb files; do not use for unrelated PDF conversion.
-metadata:
-  display_name: "CEB 文件转换"
-  display_name_en: "CEB Converter"
-  description_zh: "将已验证的 Founder CEB 文件转换为 PDF、Markdown 和 TXT，适用于单文件、批量处理与读取核验。"
-  description_en: "Convert verified Founder CEB files to PDF, Markdown, and TXT for single-file, batch, and validation workflows."
-  version: "0.1.0"
-  author: "谁是专家"
-  compatibility: "Requires Python 3.13+ and uv; run commands from a checkout of the CEB repository."
-  platforms: "codex, claude-code, trae-code, workbuddy, kimi-code, opencode"
-  distribution: "Agent Skills SKILL.md"
+description_zh: 将已验证的 Founder CEB 文件转换为 PDF、Markdown 和 TXT，适用于单文件、批量处理与读取核验。
+description_en: Convert verified Founder CEB files to PDF, Markdown, and TXT for single-file, batch, and validation workflows.
+version: "0.1.0"
+author: 谁是专家
 ---
 
 # CEB Skill

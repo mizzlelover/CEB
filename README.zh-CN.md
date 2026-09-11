@@ -76,6 +76,10 @@ JSON 报告包含源文件 SHA-256、文件大小、CEB 版本、索引数、页
 
 见根目录 [SKILL.md](SKILL.md)。当任务涉及读取、批量转换或核验 CEB 文件时，Skill 会优先建议批量处理，并要求检查输出文件与转换报告。
 
+## 多平台支持
+
+当前仓库已提供 Codex、Claude Code、Trae Code、WorkBuddy、Kimi Code 和 opencode 的项目级发现入口。六个平台共用同一份核心指令，区别只在安装目录和调用方式，详见 [docs/COMPATIBILITY.md](docs/COMPATIBILITY.md)。
+
 ## 谁是专家
 
 CEB 是“谁是专家”把工作流中的小痛点做成工具的一次实践。关注真实材料、真实失败和可以复用的解决方案。

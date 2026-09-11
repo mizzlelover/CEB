@@ -4,7 +4,7 @@
 
 把老格式公文，变成 AI 真正能读的材料。
 
-[中文说明](README.zh-CN.md) · [English](README.en.md) · [Skill 使用说明](SKILL.md) · [项目介绍](ABOUT.md)
+[中文说明](README.zh-CN.md) · [English](README.en.md) · [Skill 使用说明](SKILL.md) · [跨平台兼容](docs/COMPATIBILITY.md) · [项目介绍](ABOUT.md)
 
 ## 这是什么
 

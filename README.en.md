@@ -66,6 +66,10 @@ Unknown versions, missing indexes, malformed RSA-wrapped keys, unknown stream al
 
 See [SKILL.md](SKILL.md) for the agent-facing workflow. The Skill prefers batch conversion for folders and requires checking the generated artifacts and conversion reports before claiming that a document was read successfully.
 
+## Agent compatibility
+
+The repository includes project-level discovery entry points for Codex, Claude Code, Trae Code, WorkBuddy, Kimi Code, and opencode. All six load the same core instructions; only the discovery directory and invocation method differ. See [docs/COMPATIBILITY.md](docs/COMPATIBILITY.md).
+
 ## Who is the expert
 
 CEB is a “谁是专家” project: a small tool built around a real workflow failure, with the goal of making difficult enterprise material usable in an AI-native process.
