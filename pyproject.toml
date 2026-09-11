@@ -1,0 +1,90 @@
+[project]
+name = "ceb"
+version = "0.1.0"
+description = "Convert Founder CEB files to PDF, Markdown and TXT for AI-readable workflows"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cryptography>=46",
+    "pypdf>=6",
+    "rich>=14",
+    "typer>=0.16",
+]
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.31",
+    "pytest>=8.4",
+    "ruff>=0.12",
+]
+
+[project.scripts]
+ceb = "ceb_research.cli:app"
+ceb-native = "ceb_research.cli:app"
+
+[tool.uv]
+package = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ceb_research"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.basedpyright]
+typeCheckingMode = "all"
+pythonVersion = "3.13"
+pythonPlatform = "All"
+include = ["src", "tests"]
+exclude = ["**/__pycache__", "**/.venv", "**/build", "**/dist"]
+reportUnusedCallResult = "warning"
+reportUnnecessaryTypeIgnoreComment = "error"
+reportPrivateUsage = "error"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 88
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "COM812",
+    "ISC001",
+    "D100",
+    "D101",
+    "D102",
+    "D103",
+    "D104",
+    "D105",
+    "D107",
+    "D203",
+    "D213",
+    "CPY001",
+    "FBT001",
+    "FBT002",
+    "RUF001",
+    "TD002",
+    "TD003",
+    "FIX002",
+    "FLY002",
+]
+fixable = ["ALL"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["S101", "ARG", "PLR2004", "SLF001", "D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+addopts = ["-ra", "--strict-config", "--strict-markers"]
+filterwarnings = ["error"]
