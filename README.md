@@ -1,5 +1,9 @@
 # CEB
 
+![公文排版 × CEB：从旧格式读取，到规范排版](punk-assets/punk-cover/gongwen-ceb-collaboration/cover.png)
+
+> **配套工具：** [公文排版](https://github.com/mizzlelover/gongwen-gbt9704-skill) 负责把中文正式材料整理成符合 GB/T 9704-2012 的可编辑 DOCX；[CEB 文件转换](https://github.com/mizzlelover/CEB) 负责把已验证的 Founder CEB 文件转换为 PDF、Markdown、TXT。两个 Skill 可以连成一条“读取 → 整理 → 交付”的工作流。
+
 **Founder CEB → PDF / Markdown / TXT**
 
 把老格式公文，变成 AI 真正能读的材料。

@@ -1,5 +1,9 @@
 # CEB：把 Founder CEB 转成 AI 可处理的材料
 
+![公文排版 × CEB：从旧格式读取，到规范排版](punk-assets/punk-cover/gongwen-ceb-collaboration/cover.png)
+
+> **配套工具：** [公文排版](https://github.com/mizzlelover/gongwen-gbt9704-skill) 负责规范整理中文正式材料；[CEB 文件转换](https://github.com/mizzlelover/CEB) 负责读取并转换已验证的 Founder CEB 文件。两个 Skill 可以连成一条“读取 → 整理 → 交付”的工作流。
+
 CEB 是一个原生转换工具，也是一个可复用的 Codex Skill。它针对已验证的 Founder CEB v3 路径，直接恢复 PDF 内容流，再输出 PDF、Markdown、TXT 和结构化报告。
 
 ## 为什么做它

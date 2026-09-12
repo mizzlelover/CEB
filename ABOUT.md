@@ -6,6 +6,10 @@
 
 CEB 是一个把已验证 Founder CEB 文件转换为 PDF、Markdown、TXT 的原生工具和 Codex Skill，让长期停留在旧格式里的企业材料重新进入 AI 可处理的工作流。
 
+### 配套工作流
+
+[公文排版](https://github.com/mizzlelover/gongwen-gbt9704-skill) 负责把中文正式材料整理为符合 GB/T 9704-2012 的可编辑 DOCX；CEB 负责把已验证的 Founder CEB 文件转换为 PDF、Markdown 和 TXT。两个 Skill 可以连成“读取 → 整理 → 交付”的完整路径。
+
 ### GitHub About 建议文案
 
 **CEB | Founder CEB to PDF, Markdown and TXT for AI-readable enterprise workflows.**
@@ -28,6 +32,10 @@ CEB 是一个把已验证 Founder CEB 文件转换为 PDF、Markdown、TXT 的�
 ### One-line description
 
 CEB turns verified Founder CEB files into PDF, Markdown, and TXT so legacy enterprise material can enter an AI-readable workflow.
+
+### Companion workflow
+
+[Gongwen Document Formatting](https://github.com/mizzlelover/gongwen-gbt9704-skill) turns Chinese formal materials into editable DOCX layouts based on GB/T 9704-2012. Together with CEB, it completes a practical path from legacy-file access to formatted document delivery.
 
 ### Suggested GitHub About
 
