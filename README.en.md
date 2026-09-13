@@ -1,5 +1,8 @@
 # CEB: Founder CEB to AI-readable files
 
+> **Information security reminder (please read first)**
+> This Skill converts files; it does not determine whether a file may be shared. Do not upload internal, confidential, sensitive, restricted, or explicitly non-public enterprise files to an unauthorized online model, third-party service, or public repository. Before use, confirm that the file may enter the selected processing environment under your organization’s information-security, data-classification, confidentiality, and authorization requirements; redact it when necessary. If a local or enterprise-internal large model is available, deploy this Skill inside that controlled environment and apply the organization’s own access, storage, logging, transfer, and output-file controls.
+
 CEB is a native converter and reusable Codex Skill for verified Founder CEB v3 paths. It restores the embedded PDF data and writes standard PDF, page-aware Markdown, plain text, and a structured conversion report.
 
 ## Why this exists

@@ -1,5 +1,8 @@
 # CEB：把 Founder CEB 转成 AI 可处理的材料
 
+> **信息安全提醒（请先阅读）**
+> 本 Skill 用于文件转换，不会替你判断文件是否可以公开。请勿把企业内部、涉密、敏感、受限或明确禁止对外的文件，上传到未获授权的在线模型、第三方服务或公共仓库。使用前，请按所在单位的信息安全、数据分类分级、保密和授权要求，确认文件可以进入当前处理环境；必要时先完成脱敏。若已在本地或企业内网部署大模型，可将本 Skill 部署在内部环境使用，并由使用单位自行落实访问控制、存储、日志、传输和输出文件管理。
+
 ![公文排版 × CEB：从旧格式读取，到规范排版](punk-assets/punk-cover/gongwen-ceb-collaboration/cover.png)
 
 > **配套工具：** [公文排版](https://github.com/mizzlelover/gongwen-gbt9704-skill) 负责规范整理中文正式材料；[CEB 文件转换](https://github.com/mizzlelover/CEB) 负责读取并转换已验证的 Founder CEB 文件。两个 Skill 可以连成一条“读取 → 整理 → 交付”的工作流。

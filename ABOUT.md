@@ -2,6 +2,10 @@
 
 ## 中文
 
+### 信息安全提醒
+
+本 Skill 用于文件转换，不会替你判断文件是否可以公开。请勿把企业内部、涉密、敏感、受限或明确禁止对外的文件，上传到未获授权的在线模型、第三方服务或公共仓库。使用前，请按所在单位的信息安全、数据分类分级、保密和授权要求，确认文件可以进入当前处理环境；必要时先完成脱敏。若已在本地或企业内网部署大模型，可将本 Skill 部署在内部环境使用，并由使用单位自行落实访问控制、存储、日志、传输和输出文件管理。
+
 ### 一句话介绍
 
 CEB 是一个把已验证 Founder CEB 文件转换为 PDF、Markdown、TXT 的原生工具和 Codex Skill，让长期停留在旧格式里的企业材料重新进入 AI 可处理的工作流。
@@ -28,6 +32,10 @@ CEB 是一个把已验证 Founder CEB 文件转换为 PDF、Markdown、TXT 的�
 - 微信：搜索“谁是专家”
 
 ## English
+
+### Information security reminder
+
+This Skill converts files; it does not determine whether a file may be shared. Do not upload internal, confidential, sensitive, restricted, or explicitly non-public enterprise files to an unauthorized online model, third-party service, or public repository. Before use, confirm that the file may enter the selected processing environment under your organization’s information-security, data-classification, confidentiality, and authorization requirements; redact it when necessary. If a local or enterprise-internal large model is available, deploy this Skill inside that controlled environment and apply the organization’s own access, storage, logging, transfer, and output-file controls.
 
 ### One-line description
 
